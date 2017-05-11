@@ -37,8 +37,106 @@
 </head>
 
 <body>
-	<input type="text" id="input">
-	<button id="button">Validate</button>
+	<div class="container-fluid">
+		<div class="row">
+			<nav class="navbar">
+			  	<div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="navbar-header">
+				      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+				    	</button>
+				      <a class="navbar-brand" href="#"><img src="images/synergy-logo.png" alt="logo"></a>
+				    </div>
+
+				    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					    <ul class="nav navbar-nav navbar-right">
+						    <li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#">Link</a></li>
+							<li><a href="#"><button class="btn btn-primary">Link</button></a></li>
+						</ul>
+	    			</div><!-- /.navbar-collapse -->
+  				</div><!-- /.container-fluid -->
+			</nav>
+			<!-- REQUEST QUOTE FORM -->
+			<form class="form-horizontal">
+				<div class="form-group">
+					<!-- <label for="inputEmai" class="col-sm-3 control-label">Company Name*</label> -->
+						<div class="col-sm-6 col-sm-offset-3">
+							<input type="text" class="form-control" id="inputName" placeholder="Company Name">
+						</div>
+				</div>
+				<div class="form-group">
+					<!-- <label for="inputEmail3" class="col-sm-3 control-label">Contact Name</label> -->
+						<div class="col-sm-6 col-sm-offset-3">
+							<input type="email" class="form-control" id="inputName" placeholder="Contact Name">
+						</div>
+				</div>
+				<div class="form-group">
+					<!-- <label for="inputEmail3" class="col-sm-3 control-label">Contact Email</label> -->
+						<div class="col-sm-6 col-sm-offset-3">
+							<input type="email" class="form-control" id="inputEmail" placeholder="Contact Email">
+						</div>
+				</div>
+				<div class="form-group">
+					<!-- <label for="inputEmail3" class="col-sm-3 control-label">Phone Number</label> -->
+						<div class="col-sm-6 col-sm-offset-3">
+							<input type="email" class="form-control" id="inputPhone" placeholder="Phone Number">
+						</div>
+				</div>
+				<div class="form-group">
+					
+						<div class="col-sm-6 col-sm-offset-3">
+							<label for="inputEmail3" class="control-label">Event Frequency</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" checked="active" value="option1"> One time
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Monthly
+							</label>
+							<label class="radio-inline">
+							  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 2+ per Month
+							</label>
+						</div>
+				</div>
+				<div class="form-group">
+					<!-- <label for="inputEmail3" class="col-sm-3 control-label">Expected Number of Participants</label> -->
+						<div class="col-sm-6 col-sm-offset-3">
+							<input type="email" class="form-control" id="inputParticipants" placeholder="Expected Number of Participants">
+						</div>
+				</div>
+				<div class="form-group">
+					
+						<div class="col-sm-6 col-sm-offset-3">
+						<label for="inputEmail3" class="control-label">Session Length</label>
+							<select class="form-control">
+							  <option>15 minutes</option>
+							  <option>20 minutes</option>
+							  <option>30 minutes</option>
+							</select>
+						</div>
+				</div>
+				<div class="form-group">
+					<!-- <label for="inputPassword3" class="col-sm-3 control-label">Comments</label> -->
+				<div class="col-sm-6 col-sm-offset-3">
+					<textarea class="form-control" rows="3" placeholder="Comment"></textarea>
+				</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-3 col-sm-9">
+						<button class="btn btn-default" id="button">Send</button>
+					</div>
+				</div>
+			</form>
+			<!-- END REQUEST QUOTE FORM -->
+
+		</div>
+	</div>
 
 	<!-- JQUERY -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

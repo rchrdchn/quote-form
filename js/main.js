@@ -1,7 +1,7 @@
 // Create a function that will get the user input, test it against the standard email regex, and print the result in the console.
 function getInput(){
-	var userInput = document.getElementById("input").value;
-	var regEx = /^[a-z0-9._%-]+@[a-z0-9]+\.[a-z]{2,5}$/
+	var userInput = document.getElementById("inputName").value;
+	var regEx = /^[a-z]/
 	console.log(regEx.test(userInput));
 }
 
